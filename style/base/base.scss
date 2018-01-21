@@ -52,7 +52,7 @@ body {
         }
     }
     #main {
-        font-size: $font-size-medium;
+        font-size: $font-size-md;
     }
     .section {
         $border-color: #f6c915;
@@ -210,13 +210,13 @@ img.account-type {
     }
     & > .summary {
         color: $gray;
-        font-size: $font-size-medium;
-        min-height: $font-size-medium * $line-height-base;
+        font-size: $font-size-md;
+        min-height: $font-size-md * $line-height-base;
     }
 }
 .profile-header-bar {
     background: $panel-default-heading-bg;
-    font-size: $font-size-medium;
+    font-size: $font-size-md;
     margin-bottom: 30px;
 }
 
@@ -452,8 +452,8 @@ section.profile-statement, section.community-sidebar, section.invoice-details {
         margin: $font-size-h4 0 10px;
     }
     h3 {
-        font-size: $font-size-medium;
-        margin: $font-size-medium 0 10px;
+        font-size: $font-size-md;
+        margin: $font-size-md 0 10px;
     }
     h4, h5, h6 {
         font-size: $font-size-base;
@@ -985,8 +985,8 @@ ul.list-no > li::before, ul.status-list > li.not-ok-danger::before {
     }
     small {
         color: $state-danger-text;
-        font-size: $font-size-medium;
+        font-size: $font-size-md;
         font-weight: bold;
-        line-height: $font-size-medium * $line-height-base;
+        line-height: $font-size-md * $line-height-base;
     }
 }
